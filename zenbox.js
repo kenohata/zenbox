@@ -241,6 +241,10 @@
       */
     hide: function (evt){
       attempt(function() { return hide(evt); });
+    },
+
+    nullifyTab: function() {
+      attempt(function() { tab = null; });
     }
   };
 
