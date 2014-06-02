@@ -248,7 +248,7 @@
     }
   };
 
-  bindEvent(window, 'load', function() {
+  bindEvent(window, 'page:load', function() {
     if (window.zenbox_params) {
       Zenbox.init(window.zenbox_params);
     }
