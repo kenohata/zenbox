@@ -250,6 +250,7 @@
 
   bindEvent(window, 'page:load', function() {
     if (window.zenbox_params) {
+      Zenbox.nullifyTab();
       Zenbox.init(window.zenbox_params);
     }
   });
